@@ -32,6 +32,17 @@ body{
     color: #2e2f42;
     
 }
+.header-li ::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+
+}
 
 .header-li {
     font-weight: 500;
@@ -42,6 +53,8 @@ body{
     padding-top: 24px;
     padding-bottom: 24px;
     position: relative;
+    color: #404bbf;
+    
 }
 .header-li:hover{
     color: #404bbf;
