@@ -32,7 +32,7 @@ body{
     color: #2e2f42;
     
 }
-.header-li ::after{
+.logo-list ::after{
     content: "";
     width: 100%;
     position: absolute;
