@@ -82,15 +82,12 @@ body{
 }
 .main-first{
     background-color: #2e2f42;
-   padding: 188px 0;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
-max-width: 1440px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-
-
-
+   padding: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+        max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 }
 .ilk-baslik{
     font-size: 56px;
@@ -120,6 +117,7 @@ background-size: cover;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 200px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .main-first-button:hover{
     background-color: #404BBF;
@@ -392,7 +390,7 @@ img{
     display: block;
 }
 .main-first .container{
-    
+
       
 }
 .header .container{
