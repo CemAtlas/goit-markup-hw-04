@@ -439,11 +439,18 @@ margin-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-
-
+.social-media-list-a:hover{
+    background-color: #404bbf;;
+}
+.social-media-list-a:focus{
+    background-color: #404bbf;
+}
+.social-media-list-a-svg{
+    fill: #f4f4fd;
+}
 
 
 
