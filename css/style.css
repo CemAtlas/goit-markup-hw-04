@@ -54,6 +54,8 @@ body{
     padding-bottom: 24px;
     position: relative;
     color: #404bbf;
+    transition: color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
  
     
