@@ -122,7 +122,8 @@ body{
     border-radius: 4px;
     cursor: pointer;
     margin-top: 200px;
-  
+  transition: background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    }
 .main-first-button:hover{
     background-color: #404BBF;
