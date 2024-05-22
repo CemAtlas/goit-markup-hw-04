@@ -470,7 +470,7 @@ margin-bottom: 8px;
 .container-img{
     position: relative;
     overflow: hidden;
-
+transform: translateY(0%);
 }
 .container-img-paragraf{
     position: absolute;
@@ -487,9 +487,7 @@ margin-bottom: 8px;
     transition: transform 250ms;
     transition-timing-function: cubic-beizer(0.4,0,0.2.1);
 }
-.container-img-paragraf:hover{
-    transform: translateY(0%);
-}
+
 
 
 
