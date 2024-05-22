@@ -485,7 +485,7 @@ margin-bottom: 8px;
     width: 100%;
     transform: translateY(100%);
     transform:  250ms;
-    transition-timing-function: cubic-baizer(0.4,0,0.2.1);
+    transition-timing-function: cubic-beizer(0.4,0,0.2.1);
 }
 .container-img-paragraf:hover{
     transform: translateY(0%);
