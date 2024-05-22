@@ -54,7 +54,7 @@ body{
     padding-bottom: 24px;
     position: relative;
     color: #404bbf;
-    transition-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
  
     
 }
@@ -73,6 +73,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    transition-timing-function: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .address-li:hover{
     color: #404bbf;
