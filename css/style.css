@@ -474,7 +474,9 @@ margin-bottom: 8px;
 .container-img{
     position: relative;
     overflow: hidden;
-
+}
+.container-img:hover{
+    transform: translateY(0%);
 }
 .container-img-paragraf{
     position: absolute;
