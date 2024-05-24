@@ -536,7 +536,10 @@ margin-bottom: 8px;
     background-color: #31d0aa;
 }
 
-
+.footer-alt .container{
+    display: flex;
+    align-items: baseline;
+}
 
 
 
