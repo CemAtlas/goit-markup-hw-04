@@ -335,7 +335,7 @@ width: calc((100% - 72px) / 4);
     margin-right: 24px;
     row-gap: 48px;
     list-style-type: none;
-    transform: translateY(0%);
+    
 }
 
 .main-four-div{
@@ -549,7 +549,9 @@ margin-bottom: 8px;
     align-items: baseline;
 }
 
-
+.container-img img{
+    transform: translateY(0%);
+}
 
 
 
