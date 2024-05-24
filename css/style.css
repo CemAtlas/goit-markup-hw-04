@@ -475,9 +475,7 @@ margin-bottom: 8px;
     position: relative;
     overflow: hidden;
 }
-.container-img:hover{
-    transform: translateY(0%);
-}
+
 .container-img-paragraf{
     position: absolute;
     top: 0;
@@ -490,6 +488,8 @@ margin-bottom: 8px;
     height: 100%;
     width: 100%;
     transform: translateY(100%);
+    transform: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 .footer--social-media-paragraf{
