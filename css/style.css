@@ -527,7 +527,7 @@ margin-bottom: 8px;
 .footer-social-media-list-a:hover{
     background-color: #31d0aa;
 }
-.footer-social-media-list-a.focus{
+.footer-social-media-list-a:focus{
     background-color: #31d0aa;
 }
 
