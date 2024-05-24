@@ -23,6 +23,8 @@ body{
     color:#4d5ae5 ;
     margin-right: 76px;
     margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
     
     
 
@@ -166,11 +168,7 @@ body{
     background-color: #FFFFFF;
 
 }
-.img-li{
-    border-radius: 0px 0px 4px 4px;
-    background-color: #FFFFFF;
-    
-}
+  
 .footer-p{
   
     max-width: 264px;
@@ -245,6 +243,7 @@ width: calc((100% - 72px) / 4);
 .nav-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     
     
     
@@ -295,13 +294,17 @@ width: calc((100% - 72px) / 4);
     
     border-radius: 0px 0px 4px 4px;
         padding: 32px 0;
+       
 
 }
 .img-li{
+    border-radius: 0px 0px 4px 4px;
+        background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);;
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+        
 }
 .calisan-container{
     width: calc(100%-72px)/4;
@@ -441,6 +444,7 @@ margin-bottom: 8px;
 .social-media-list{
     width: 40px;
     height: 40px;
+    list-style-type: none;
     
     
 
@@ -470,7 +474,7 @@ margin-bottom: 8px;
 .container-img{
     position: relative;
     overflow: hidden;
-transform: translateY(0%);
+
 }
 .container-img-paragraf{
     position: absolute;
@@ -484,8 +488,10 @@ transform: translateY(0%);
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: transform 250ms;
-    transition-timing-function: cubic-beizer(0.4,0,0.2.1);
+   
+}
+footer .container{
+    margin-right: 120px;
 }
 
 
