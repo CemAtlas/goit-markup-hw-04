@@ -510,8 +510,7 @@ margin-bottom: 8px;
 .footer-social-media-list{
    width: 40px;
    height: 40px;
-transition: background-color 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
    
 
 
@@ -525,6 +524,8 @@ transition: background-color 250ms;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
