@@ -501,6 +501,8 @@ margin-bottom: 8px;
 }
 .footer-logo-paragraf{
     margin-right: 120px;
+    display: flex;
+    align-items: baseline;
 }
 
 
