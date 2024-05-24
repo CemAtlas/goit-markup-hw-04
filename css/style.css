@@ -549,7 +549,7 @@ margin-bottom: 8px;
     align-items: baseline;
 }
 
-.container-img img{
+.container-img img:hover{
     transform: translateY(0%);
 }
 
