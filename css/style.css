@@ -371,6 +371,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     
         
 }
+.main-four-li:hover .container-img-paragraf{
+    transform: translateY(0%);
+}
 .footer-alt{
     display: block;
     padding: 100px 0;
